@@ -1,4 +1,4 @@
-package org.learn.ramu.slidingwindow;
+package org.learn.ramu.twopointers.slidingwindow;
 
 import java.util.HashMap;
 import java.util.Map;
