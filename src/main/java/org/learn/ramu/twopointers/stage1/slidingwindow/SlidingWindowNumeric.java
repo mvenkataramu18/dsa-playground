@@ -1,4 +1,4 @@
-package org.learn.ramu.twopointers.slidingwindow;
+package org.learn.ramu.twopointers.stage1.slidingwindow;
 
 import java.util.Arrays;
 import java.util.HashMap;

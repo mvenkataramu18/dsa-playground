@@ -1,9 +1,7 @@
-package org.learn.ramu.twopointers;
+package org.learn.ramu.twopointers.stage1;
 
-import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class MinimumWindowSubString {
 

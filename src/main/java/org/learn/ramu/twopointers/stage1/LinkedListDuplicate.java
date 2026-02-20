@@ -1,33 +1,40 @@
-package org.learn.ramu.twopointers;
+package org.learn.ramu.twopointers.stage1;
 
-public class LinkedListCycle {
+public class LinkedListDuplicate {
 
-    public static boolean hasCycle(ListNode head) {
+    public static ListNode duplicate(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
+
+        boolean hasCycle = false;
 
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 
             if (slow == fast) {
-                return true;
+                slow = head;
+                hasCycle = true;
+                break;
             }
         }
-
-        return false;
+        if(!hasCycle) return null;
+        while(slow != fast) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow;
     }
 
     public static void main(String[] args) {
 
-        // create list: 1 -> 2 -> 3 -> 4 -> 5
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
         head.next.next.next.next.next = head.next.next;
-
-        System.out.println("Linked list has a cycle: " + hasCycle(head));
+        
+        System.out.println("Duplicate " + duplicate(head).val);
     }
 }

@@ -1,7 +1,6 @@
-package org.learn.ramu.twopointers;
+package org.learn.ramu.twopointers.stage1;
 
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class LongestSubstringWithoutRepeating {
 

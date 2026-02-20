@@ -1,4 +1,4 @@
-package org.learn.ramu.twopointers;
+package org.learn.ramu.twopointers.stage1;
 
 public class RemoveElement {
 
