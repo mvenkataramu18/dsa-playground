@@ -1,12 +1,8 @@
 package org.learn.ramu.twopointers.stage2;
 
-public class ReorderList {
+import org.learn.ramu.twopointers.stage1.ListNode;
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int val) { this.val = val; }
-    }
+public class ReorderList {
 
     public static void reorderList(ListNode head) {
 
@@ -36,6 +32,7 @@ public class ReorderList {
         ListNode second = prev;
 
         while (second != null) {
+            assert first != null;
             ListNode next1 = first.next;
             ListNode next2 = second.next;
 
