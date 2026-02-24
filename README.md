@@ -9,13 +9,27 @@ Trying to stay consistent and build strong fundamentals.
 
 ## Current Focus
 
-- Strengthening Two Pointer patterns
-- Getting more comfortable with Sliding Window problems
-- Improving clarity and speed in implementation
+- Pattern locking for Two Pointers & Sliding Window
+- Linked List structural mastery (reverse, merge, partition, cycle)
+- Strengthening approach-building before coding
+- Solving targeted LeetCode medium problems (see 2-week execution plan)
+- Improving first-10-minute problem analysis
 
 ---
 
 ## Weekly Progress
+
+### Week 4 (Feb 20 – Feb 27)
+- Remove Nth Node From End
+- Reverse Linked List II
+- Reorder List
+- Partition List
+- Linked List Cycle II
+- Structural reasoning drills (pattern → invariant → exit condition)
+- Focus on clean pointer discipline
+- Began structured LeetCode 2-week plan (Pattern Locking Phase)
+
+---
 
 ### Week 3 (Feb 12 – Feb 19)
 - Two Sum
